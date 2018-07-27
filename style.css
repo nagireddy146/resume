@@ -8,7 +8,7 @@ text-align: center;
 .left{
 	width: 25%;
 	border: 3px solid;
-	background-color: green;
+	background-color: orange;
 	box-shadow: 3px 3px 3px white;
 	margin: 1%;
 	padding: 1%;
@@ -24,6 +24,7 @@ text-align: center;
 img{
 	width: 300px;
 	border: 10px;
+	border-radius: 50%;
 }
 h1,
 h2{

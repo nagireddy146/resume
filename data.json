@@ -1,8 +1,29 @@
 {
 	"details":{
         "name":"ram",
-        "image":"image.png",
+        "image":"profile.jpg",
         "phone":"9999988888",
         "email":"nagireddy@gmail.com"
-    }
+    },
+     "education":[
+     {
+     	"course":"B.Tech(CSE)",
+     	"college":"Mic college of technology",
+     	"percentage":"80%"
+
+
+     },
+     {
+     	"course":"INTERMEDIATE",
+     	"college":"vikas junior college",
+     	"percentage":"97%"
+
+     },
+     {
+        "course":"SSC",
+     	"college":"SARADA HIGH SCHOOL",
+     	"percentage":"92%"
+
+     }
+     ]
 }
