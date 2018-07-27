@@ -44,5 +44,11 @@ function edu(education)
 		var l=document.createElement("li");
 		l.textContent=education[i].course;
 		un.appendChild(l);
+		var l2=document.createElement("li");
+		l2.textContent=education[i].college;
+		un.appendChild(l2);
+		var l3=document.createElement("li");
+		l3.textContent=education[i].percentage;
+		un.appendChild(l3);
 }
 }
