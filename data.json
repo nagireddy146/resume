@@ -1,6 +1,6 @@
 {
 	"details":{
-        "name":"ram",
+        "name":"NagiReddy",
         "image":"profile.jpg",
         "phone":"9999988888",
         "email":"nagireddy@gmail.com"
@@ -25,5 +25,23 @@
      	"percentage":"92%"
 
      }
-     ]
+     ],
+     "skills":[
+     	{
+     		"title":"programming languages:",
+     		"output":[
+ 			 "c","c++","java","Python"
+     		]
+     	},
+     	{
+     		"title":"operating systems:",
+     		"output":[
+     		   "windows","linux","mac"
+     		]
+     	}
+     ],
+     "carrier":
+     {
+     	"co":" I have a great carrier objective.But i doesn't want to tell it to you.Because it will known to you."
+     }
 }

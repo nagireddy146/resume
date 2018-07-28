@@ -1,36 +1,41 @@
 .main{
 width: 100%;
-background-color: violet;
+background-color:#DAF7A6;
 display: flex;
 justify-content: center;
 text-align: center;
+height: 50%;
 }
 .left{
 	width: 25%;
 	border: 3px solid;
-	background-color: orange;
+	background-color: #DAF7A6;
 	box-shadow: 3px 3px 3px white;
 	margin: 1%;
 	padding: 1%;
+	text-align: center;
 }
 .right{
 	width:75%;
 	border: 5px solid;
-	background-color:white ;
+	/*background-color:white ;*/
 	box-shadow: 3px 3px 3px white;
 	margin: 1%;
 	padding: 1%;
+	text-align: center;
+
 }
 img{
-	width: 300px;
+	width: 200px;
 	border: 10px;
-	border-radius: 50%;
+	border-radius: 45%;
+	box-shadow: 3px 3px 3px red;
+	border-style: double;
 }
-h1,
-h2{
+/*h1{
 	font-size: 24px;
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
+}*/
+/*@media only screen and (min-width: 320px) and (max-width: 480px){
 	.main{
 		display: flex;
 		flex-wrap: wrap;
@@ -43,5 +48,41 @@ h2{
 	.main{
 		display: flex;
 		flex-direction: column;
-	}
+	}*/
+
+@media only screen and (min-width:480px )and (max-width: 768px){
+	.main{
+width: 100%;
+background-color: orange;
+display: flex;
+justify-content: center;
+text-align: center;
+height: 50%;
+flex-direction: column-reverse;
+flex-wrap: 
 }
+.left{
+	width: 20%;
+	border: 3px solid;
+	background-color: #666699;
+	box-shadow: 3px 3px 3px white;
+	margin: 1%;
+	padding: 1%;
+	text-align: center;
+}
+.right{
+	width:70%;
+	border: 5px solid;
+	/*background-color:white ;*/
+	box-shadow: 3px 3px 3px white;
+	margin: 1%;
+	padding: 1%;
+	text-align: center;
+
+}
+}
+.set table,tr,td{
+     border :2px solid;
+}
+
+
